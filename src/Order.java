@@ -18,15 +18,7 @@ public class Order{
 	@Column(name="order_id")
 	private String orderId;
 	
-	@Column(name = "userId")
-	private Long userId;
-	
-	@Column(name = "amount")
-	private double amount;
-	
-	@Column(name = "orderStatus")
-	private String orderStatus;
-	
+	@Colu
 	@Column(name = "order_date")
 	private Date orderDate;
 
